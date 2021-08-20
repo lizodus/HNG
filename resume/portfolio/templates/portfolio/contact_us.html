@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block content %}
+    <main class="container mt-3">
+        <div class="row justify-content-center">
+            <div class="card col-sm-8 contact_form bg-warning">
+                <h1 class="text-center mt-3">Contact me</h1>
+                <form action="{% url 'contact-me' %}" enctype="multipart/form-data" method="POST">
+                    <div class="form-group">
+                        {% csrf_token %}
+
+                        <div class="email mb-3">
+                            <label for="Email" class="mb-2">Email Address</label>
+                            <input type="email" name="sender-email" id="sender-email" placeholder="Email" class="form-control" required>
+                        </div>
+
+                        <div class="subject mb-3">
+                            <label for="subject" class="mb-2">Subject</label>
+                            <input type="text" name="subject-body" id="subject-body" placeholder="Subject" class="form-control" required>
+                        </div>
+
+                        <div class="message">
+                            <label for="message" class="mb-2">Message</label>
+                            <textarea name="message-body" id="message-body" placeholder="Message" class="form-control" required style="height:200px;"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block mt-3 mb-3"> send mail</button>
+                </form>
+            </div>
+        </div>
+    </main>
+{% endblock content %}

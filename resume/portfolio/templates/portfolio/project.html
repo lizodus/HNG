@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block content %}
+<main class="container">
+    <div class="row justify-content-center project mt-5 mb-5">
+        <div class="col-md-3 card bg-danger blog">
+            <h3 class="mt-3 text-white">ZURI BLOG</h3>
+            <p class="mt-3 text-white">Blog</p>
+            <img src="{% static '/media/zuriblog.png' %}" alt="image" srcset=""><br>
+            
+           <div class="row justify-content-center">
+                <div class="col-sm-4 mt-3 mb-3">
+                    <a href="https://lizodus-blog.herokuapp.com" class="btn btn-outline-info w-100">Demo</a>
+                </div>
+                
+           </div>
+        </div>
+
+        <div class="col-md-3 card bg-info resume">
+            <h3 class="mt-3">Basic Frontend Resume Page</h3>
+            <p class="mt-3 text-white">Resume Page</p>
+            <img src="{% static '/media/moneytracker.png' %}" alt="image" srcset=""><br>
+            
+            <div class="row justify-content-center">
+                <div class="col-sm-4 mt-3 mb-3">
+                    <a href="https://projectliz.lizodus.repl.co/#" class="btn btn-outline-primary w-100">Demo</a>
+                </div>
+                
+           </div>
+        </div>
+
+         <div class="col-md-3 card bg-success text-white marketplace">
+            <h3 class="mt-3">Marketplace</h3>
+            <p>Lizodus' Marketplace</p>
+            <img src="{% static '/media/lmp.jpg' %}" alt="image" srcset=""><br>
+            
+            
+            <div class="row justify-content-center">
+                <div class="col-sm-4 mt-3 mb-3">
+                    <a href="https://lizodusmarketplace.000webhostapp.com/" class="btn btn-outline-danger w-100"> Demo</a>
+                </div>
+               
+           </div>
+        </div>
+    </div>
+</main>
+{% endblock content %}

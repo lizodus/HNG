@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+
+{% block content %}
+    <main class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 mt-5">
+                <img class="responsive-image" src="{% static 'media/my-image.jpeg' %}" alt="">
+            </div
+        </div>
+
+        <div class="col-md-6 text-white introduction">
+            <h1>Hello, Welcome to Lizodus' Resume Page.</h1>
+            <h4>
+                <a href="{% url 'about-me' %}" class="btn btn-outline-info btn-block">About me</a>
+            </h4>
+        </div>
+    </main>
+    <main class="container bg-gold row-height mb-1">
+         <div class="row justify-content-center">
+                <div class="col-md-3">
+                    <a href="https://ingressive.org"><img class="sponsor-logo i4g" src="{% static '/media/i4g.png' %}" alt="imgage"></a>
+                </div>
+
+                 <div class="col-md-3">
+                    <a href="https://zuri.team"><img class="sponsor-logo zuri" src="{% static '/media/i4g.png' %}" alt="imgage"></a>
+                </div>
+
+                <div class="col-md-3">
+                   <a href="https://hng.tech"><img class="sponsor-logo hng" src="{% static '/media/hng.png' %}" alt="image"></a>
+                </div>
+            </div>
+    </main>
+{% endblock content %}
+   

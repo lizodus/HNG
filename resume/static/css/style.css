@@ -1,0 +1,272 @@
+body{
+    background-color:rgb(70, 10, 57);
+}
+
+.container{
+    max-width: 100%;
+    max-height: auto;
+  }
+
+.bg-dark{
+    background-color: blacks;
+}
+
+.bg-gold{
+    background-color: rgb(47, 25, 150);
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.row-height{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: -60px;
+    margin-top: 20px;
+}
+  
+
+
+.navbar-light .navbar-nav .nav-item .nav-link{
+    color: rgb(33, 62, 143);
+}
+
+.navbar-light .navbar-toggler {
+    color: gold;
+    border-color: gold;
+}
+
+/* HOMEPAGE STYLE */
+.responsive-image{
+    width: 100%;
+    max-width: 474px;
+    height: auto;
+    max-height: 500px;
+    border-radius: 600px;
+}
+
+@media only screen and (max-width: 991px){
+    .responsive-image{
+        width: 100%;
+        max-width: 450px;
+        height: auto;
+        max-height: 450px;
+        border-radius: 600px
+    }
+}
+@media only screen and (max-width: 507px){
+    .responsive-image{
+        width: 100%;
+        margin:0px 20px 0px 0px;
+        max-height: 400px;
+        max-width: 450px;
+        border-radius: 600px;
+    }
+}
+
+@media only screen and (max-width: 389px){
+    .responsive-image{
+        width: 100%;
+        margin:0px 20px 0px 0px;
+        max-height: 350px;
+        max-width: 400px;
+        border-radius: 600px;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .responsive-image{
+        width: 100%;
+        margin:0px 2px 0px 0px;
+        max-height: 300px;
+        max-width: 370px;
+        border-radius: 600px;
+    }
+}
+
+
+.introduction{
+    margin-top: 10rem;
+}
+
+@media only screen and (max-width: 991px){
+    .introduction{
+        margin-top:6rem;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .introduction{
+        margin-top:2rem;
+    }
+}
+
+
+/* sponsors icon */
+.sponsor-logo{
+    max-width: 200px;
+    
+}
+
+@media only screen and (max-width:872px){
+    .zuri{
+        margin-left:25px;
+    }
+}
+
+@media only screen and (max-width:872px){
+    .sponsor-logo{
+        margin: 40px 0px 0px -40px;
+    }
+}
+
+@media only screen and (max-width:836px){
+    .zuri{
+        margin-left: -5px;
+    }
+}
+
+
+
+@media only screen and (max-width:767px){
+    .sponsor-logo{
+        margin: 40px 0px 0px 200px;
+    }
+}
+
+@media only screen and (max-width:580px){
+    .sponsor-logo{
+        margin: 40px 0px 0px 150px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .sponsor-logo{
+        margin: 40px 0px 0px 100px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .sponsor-logo{
+        margin: 40px 0px 0px 50px;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .sponsor-logo{
+        margin: 40px 0px 0px 20px;
+    }
+}
+
+
+/* ABOUT PAGE STYLE */
+
+/* social media icon */
+.container a .fab{
+    font-size: 40px;
+    margin: 0px 25px 0px 25px;
+}
+
+.container a .fa-github-alt{
+    color: rgba(255, 255, 255, 0.753);
+    background: rgb(88, 8, 99);
+}
+
+.container a .fa-github-alt:hover{
+    color: rgba(255, 255, 255, 0.445);
+    background: rgb(69, 18, 99);
+}
+
+@media only screen and (max-width:896px){
+    .container a .fab{
+        font-size: 40px;
+        margin: 50px 25px 0px -0px;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .container a .fab{
+        font-size: 40px;
+        margin: 100px 20px 0px 100px;
+    }
+}
+
+
+@media only screen and (max-width:518px){
+    .container a .fab{
+        font-size: 40px;
+        margin: 0px 20px 0px 50px;
+    }
+}
+
+@media only screen and (max-width:375px){
+    .container a .fab{
+        font-size: 40px;
+        margin: -300px 20px 0px 30px;
+    }
+}
+
+.social-icon{
+    margin-top: -55px;
+}
+
+@media only screen and (max-width:1125px){
+    .social-icon{
+        margin-top: -150px;
+    }
+}
+
+@media only screen and (max-width:896px){
+    .social-icon{
+        margin-top: -200px;
+    }
+}
+
+@media only screen and (max-width:340px){
+    .social-icon{
+        margin-top: -200px;
+    }
+}
+
+
+/* PROJECT PAGE*/
+
+.zuriblog, .projpage,.lmp{
+    margin: 0px 15px 0px 15px;
+    max-width: 400px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1125px){
+    .zuriblog, .projpage,.lmp{
+        margin: 30px 15px 0px 15px;
+        max-width: 500px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1074px){
+    .zuriblog, .projpage,.lmp{
+        margin: 30px 15px 0px 15px;
+        max-width: 420px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 914px){
+    .zuriblog, .projpage,.lmp{
+        margin: 30px 15px 0px 15px;
+        max-width: 750px;
+        width: 90%;
+    }
+}
+
+
+/* CONTACT FORM STYLE*/
+@media only screen and (max-width:1125px){
+    .contact_form{
+        width: 90%;
+    }
+}
+
